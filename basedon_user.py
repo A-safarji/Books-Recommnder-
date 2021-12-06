@@ -56,7 +56,7 @@ def get_recommendations(book):
             break
         
 
-print(get_recommendations(name))
+st.write(get_recommendations(name))
 
 
 
