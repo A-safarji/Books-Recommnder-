@@ -14,10 +14,17 @@ pio.renderers.default = 'chrome'
 
 
 #st.title('Recommended for you!')
-st.markdown(' <p align="center" class="big-font">  <b>  <u>Authorship Attribution</b>   </p>', unsafe_allow_html=True)	
+st.markdown(' <p align="center" class="big-font">  <b>Authorship Attribution <u>Check</b>   </p>', unsafe_allow_html=True)	
 
 
 st.markdown("""
+<style>
+.big-font {
+    font-size:45px !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 # cosine_sim = pd.read_pickle('cosine_sim.pickle')
 # indices = pd.read_pickle('indices.pickle')
 df1 = pd.read_pickle('df.pkl')
