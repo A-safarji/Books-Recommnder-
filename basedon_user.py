@@ -35,7 +35,9 @@ df1
 name = st.sidebar.text_input(''' Enter your arabic book name''')
 st.sidebar.table(df1["BookTitle"])
 book = df1[(df1["BookTitle"] == name) #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
-book
+
+st.title(book)
+           
 
 
 
