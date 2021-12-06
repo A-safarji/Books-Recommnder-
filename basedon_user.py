@@ -107,7 +107,7 @@ fig.update_layout(template="plotly_white",xaxis_showgrid=False, yaxis_showgrid=F
 fig.update_traces( marker_line_color='rgb(8,48,107)',
                   marker_line_width=2, opacity=0.6)
     
-fig.update_layout(showlegend=False, title="Recommended",
+fig.update_layout(showlegend=False, title="Books Word Count",
 xaxis_title="Author Name",
 yaxis_title="Book Title")
 
