@@ -11,7 +11,7 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 pio.renderers.default = 'chrome'
 st.set_option('deprecation.showPyplotGlobalUse', False)
-
+st.set_page_config(layout="wide")
 
 #st.title('Recommended for you!')
 st.markdown(' <p align="center" class="big-font">  <b>Authorship Attribution <u> 🌟 T5 🇸🇦</b>   </p>', unsafe_allow_html=True)	
