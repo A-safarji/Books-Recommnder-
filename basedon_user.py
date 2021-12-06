@@ -44,11 +44,11 @@ st.write(books)
 
 
 
-tf = TfidfVectorizer(analyzer = "word", ngram_range=(1,2), min_df=0, max_df=0.95)
+# tf = TfidfVectorizer(analyzer = "word", ngram_range=(1,2), min_df=0, max_df=0.95)
 
-tfidf_matrix = tf.fit_transform(df1['combined_text'])
+# tfidf_matrix = tf.fit_transform(df1['combined_text'])
 
-cosine =  cosine_similarity(tfidf_matrix, tfidf_matrix)
+# cosine =  cosine_similarity(tfidf_matrix, tfidf_matrix)
 
 st.write(cosin.to_numpy()) 
 
