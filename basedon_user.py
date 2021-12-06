@@ -87,7 +87,7 @@ def get_recommendations(book):
             break
             
 
-st.subheader('🌟 Your Recommended Books | كتبك الموصى بها ')
+st.subheader('💡 Your Recommended Books | كتبك الموصى بها ')
 st.write(get_recommendations(name))
 
 
