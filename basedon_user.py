@@ -28,6 +28,7 @@ st.markdown("""
 # cosine_sim = pd.read_pickle('cosine_sim.pickle')
 # indices = pd.read_pickle('indices.pickle')
 df1 = pd.read_pickle('df.pkl')
+cosin = pd.read_pickle(cosine.pkl)
 #reviews = pd.read_pickle('clean_review.pickle')
 # raw = pd.read_pickle("clean_data.pickle")
 
@@ -49,7 +50,7 @@ tfidf_matrix = tf.fit_transform(df1['combined_text'])
 
 cosine =  cosine_similarity(tfidf_matrix, tfidf_matrix)
 
-#st.write(cosine) 
+st.write(cosin.to_numpy()) 
 
 
 def get_title_from_index(Index):
