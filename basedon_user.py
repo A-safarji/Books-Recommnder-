@@ -47,7 +47,7 @@ st.sidebar.table(df1["BookTitle"])
 
 st.write('---')
 
-st.subheader('Your Selected Book')
+st.subheader('Your Selected Book Title Details')
 books = df1[(df1["BookTitle"] == name)]
            #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 st.write(books)
@@ -75,7 +75,7 @@ def get_recommendations(book):
             break
             
 
-st.subheader('System Recommendations')
+st.subheader('Your Recommended Books')
 st.write(get_recommendations(name))
 
 
