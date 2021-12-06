@@ -40,7 +40,7 @@ cosin = pd.read_pickle('cosine.pkl')
 # raw = pd.read_pickle("clean_data.pickle")
 
 
-if st.checkbox("Show orignal dataframe"):
+if st.checkbox("Show orignal dataframe | عرض جميع الكتب الموجودة بنظام التوصية"):
 	dataframe=df1
 	#dataframe.drop('Unnamed: 0', axis=1, inplace=True)
 	dataframe
@@ -51,7 +51,7 @@ st.sidebar.header('نظام التوصية')
 name = st.sidebar.text_input(''' ادخل اسم الكتاب''')
 st.sidebar.write(''' Our Books Collections Below:''')
 st.sidebar.write(''' 
-مجموعات كتبنا أدناه:''')
+مجموعات كتبنا أدناه''')
 
 st.sidebar.table(df1["BookTitle"])
 
