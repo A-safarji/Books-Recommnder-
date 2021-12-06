@@ -59,7 +59,7 @@ st.sidebar.table(df1["BookTitle"])
 
 st.write('---')
 
-st.subheader('Your Selected Book Title Details')
+st.subheader(':star2: Your Selected Book Title Details | تفاصيل عنوان الكتاب المختار ')
 books = df1[(df1["BookTitle"] == name)]
            #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 st.write(books)
