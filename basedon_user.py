@@ -78,7 +78,7 @@ def get_recommendations(book):
     i = 0
     for book in sortedbooks:
         st.write( " Title: "+ get_title_from_index(book[0]) + "  |  "  + " author: " + df1.author[df1["index"] == book[0]])
-      
+      	st.table( " Title: "+ get_title_from_index(book[0]) + "  |  "  + " author: " + df1.author[df1["index"] == book[0]])
         i = i+1
         if i>10:
             break
@@ -115,7 +115,7 @@ yaxis_title="BookTitle")
 fig.update_xaxes(showline=True, linewidth=1, linecolor='black')
 fig.update_yaxes(showline=True, linewidth=1, linecolor='black')
                                
-st.table(get_recommendations(name))
+#st.table(get_recommendations(name))
 
 st.plotly_chart(fig)
 
