@@ -22,7 +22,7 @@ df = pd.read_pickle('df.pkl')
 # raw = pd.read_pickle("clean_data.pickle")
 
 df
-name = st.sidebar.text_input(''' Enter your user name''')
+name = st.sidebar.text_input(''' Enter your arabic book name''')
 st.sidebar.table(df["BookTitle"])
 #user = df[(df["BookTitle"] == name) #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 
