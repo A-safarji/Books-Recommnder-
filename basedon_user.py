@@ -28,7 +28,8 @@ st.markdown("""
 
 
 st.markdown("""
-	Arabic authorship attribution is the task of finding the author of a document. To achieve this purpose, one compares a query text with a model of the candidate author and determines the likelihood of the model for the query
+	Arabic authorship attribution is the task of finding the author of a document.
+	To achieve this purpose, one compares a query text with a model of the candidate author and determines the likelihood of the model for the query.
 	""")
 
 # cosine_sim = pd.read_pickle('cosine_sim.pickle')
