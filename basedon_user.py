@@ -51,7 +51,7 @@ st.write(books)
 # cosine =  cosine_similarity(tfidf_matrix, tfidf_matrix)
 
 st.write(cosin.to_numpy()) 
-
+cosine= cosin.to_numpy()
 
 def get_title_from_index(Index):
     return df1[df1.index == Index]["BookTitle"].values[0]
