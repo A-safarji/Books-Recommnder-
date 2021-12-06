@@ -93,7 +93,7 @@ except:
 
 st.write('---')
 
-st.header('Books EDA')
+st.header('Books in Recommnder System')
 
 fig = px.bar(df1, x='author' , y='text_length', color='author',color_discrete_sequence=px.colors.diverging.Geyser, height=600, width=900)
     
