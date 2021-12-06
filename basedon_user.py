@@ -34,6 +34,8 @@ Arabic authorship attribution is the task of finding the author of a document.
 To achieve this purpose, one compares a query text with a model of the candidate author and determines the likelihood of the model for the query.
 	""")
 
+raw_text = st.text_area("Your Text","Enter Text Here")
+
 df1 = pd.read_pickle('df.pkl')
 cosin = pd.read_pickle('cosine.pkl')
 
