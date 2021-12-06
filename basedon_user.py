@@ -70,7 +70,7 @@ def get_recommendations(book):
         if i>10:
             break
         
-st.write(get_recommendations(books))
+st.write(get_recommendations(name))
 
 
 
