@@ -1,14 +1,12 @@
 
-plotly == 4.9.0
-cloudpickle == 1.3.0
-pickleshare == 0.7.5
+plotly
+cloudpickle
+pickleshare
 altair
 pandas
 streamlit 
 matplotlib
 numpy
-scikit-learn==0.23.2
 shap
-numpy
 pathlib 
 
