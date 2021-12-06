@@ -65,8 +65,6 @@ def get_recommendations(book):
     i = 0
     for book in sortedbooks:
        st.write(get_title_from_index(book[0]) + " by " + df1.author[df1["index"] == book[0]])
-        
-
         i = i+1
         if i>10:
             break
