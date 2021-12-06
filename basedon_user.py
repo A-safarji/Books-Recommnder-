@@ -30,16 +30,13 @@ st.markdown("""
 st.markdown("""
 إسناد التأليف العربي هو مهمة البحث عن مؤلف المستند. لتحقيق هذا الغرض ، يقارن المرء نص الاستعلام بنموذج المؤلف المرشح ويحدد احتمال نموذج الاستعلام.
 
-	Arabic authorship attribution is the task of finding the author of a document.
-	To achieve this purpose, one compares a query text with a model of the candidate author and determines the likelihood of the model for the query.
+Arabic authorship attribution is the task of finding the author of a document.
+To achieve this purpose, one compares a query text with a model of the candidate author and determines the likelihood of the model for the query.
 	""")
 
-# cosine_sim = pd.read_pickle('cosine_sim.pickle')
-# indices = pd.read_pickle('indices.pickle')
 df1 = pd.read_pickle('df.pkl')
 cosin = pd.read_pickle('cosine.pkl')
-#reviews = pd.read_pickle('clean_review.pickle')
-# raw = pd.read_pickle("clean_data.pickle")
+
 
 
 if st.checkbox("Show orignal dataframe | عرض جميع الكتب الموجودة بنظام التوصية"):
@@ -80,7 +77,7 @@ def get_recommendations(book):
     sortedbooks = sorted(similar_books, key = lambda x:x[1], reverse=True)[1:]
     i = 0
     for book in sortedbooks:
-        st.write(get_title_from_index(book[0]) + " : "  + " by " + df1.author[df1["index"] == book[0]])
+        st.write( " Title|عنوان "+ get_title_from_index(book[0]) + " : "  + " by| المؤلف " + df1.author[df1["index"] == book[0]])
       
         i = i+1
         if i>10:
@@ -91,8 +88,8 @@ st.subheader('💡 Your Recommended Books | كتبك الموصى بها ')
 st.write(get_recommendations(name))
 
 
-
-st.write('## Contact')
+st.write('---')
+st.write('## Contact Our Group')
 
 
 st.write("""
