@@ -13,18 +13,18 @@ pio.renderers.default = 'chrome'
 
 st.title('Recommended for you!')
 
-cosine_sim = pd.read_pickle('cosine_sim.pickle')
-indices = pd.read_pickle('indices.pickle')
-df = pd.read_pickle('df.pickle')
-reviews = pd.read_pickle('clean_review.pickle')
-raw = pd.read_pickle("clean_data.pickle")
+# cosine_sim = pd.read_pickle('cosine_sim.pickle')
+# indices = pd.read_pickle('indices.pickle')
+# df = pd.read_pickle('df.pickle')
+# reviews = pd.read_pickle('clean_review.pickle')
+# raw = pd.read_pickle("clean_data.pickle")
 
 
-name = st.sidebar.text_input(''' Enter your user name''')
+# name = st.sidebar.text_input(''' Enter your user name''')
 
-user = reviews[(reviews["User_Name"] == name) & (reviews["Polarity"] == "Positive")].reset_index(drop=True)
+# user = reviews[(reviews["User_Name"] == name) & (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 
-st.sidebar.table(user["Recipe"])
+# st.sidebar.table(user["Recipe"])
 
 
 # def get_recommendations(name, cosine_sim, raw):
