@@ -7,6 +7,8 @@ import plotly.graph_objects as go
 import plotly as py
 import plotly.io as pio
 import pickle
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 pio.renderers.default = 'chrome'
 
 
