@@ -87,6 +87,7 @@ def get_recommendations(book):
 st.subheader('💡 Your Recommended Books | كتبك الموصى بها ')
 st.write(get_recommendations(name))
 
+st.columns(get_recommendations(name))
 
 st.write('---')
 st.write('## Contact Our Group')
