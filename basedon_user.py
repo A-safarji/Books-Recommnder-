@@ -98,15 +98,15 @@ st.header('Books EDA')
 fig = px.bar(df1, x='author' , y='text_length', color='author',color_discrete_sequence=px.colors.diverging.Geyser, height=600, width=900)
     
 fig.update_xaxes(showgrid=False)
-fig.update_yaxes(showgrid=False)
+fig.update_yaxes(showgrid=True)
     
     
-fig.update_layout(template="plotly_white",xaxis_showgrid=True, yaxis_showgrid=False)
+fig.update_layout(template="plotly_white",xaxis_showgrid=False, yaxis_showgrid=False)
     
 fig.update_traces( marker_line_color='rgb(8,48,107)',
                   marker_line_width=2, opacity=0.6)
     
-fig.update_layout(showlegend=False, title="Books Word Count",
+fig.update_layout(showlegend=True, title="Books Word Count",
 xaxis_title="Author Name",
 yaxis_title="Text Length")
 
