@@ -14,7 +14,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
 #st.title('Recommended for you!')
-st.markdown(' <p align="center" class="big-font">  <b>Authorship Attribution <u> :star2: T5 🇸🇦</b>   </p>', unsafe_allow_html=True)	
+st.markdown(' <p align="center" class="big-font">  <b>Authorship Attribution <u> 🌟 T5 🇸🇦</b>   </p>', unsafe_allow_html=True)	
 
 
 st.markdown("""
@@ -87,7 +87,7 @@ def get_recommendations(book):
             break
             
 
-st.subheader('Your Recommended Books | كتبك الموصى بها ')
+st.subheader('🌟 Your Recommended Books | كتبك الموصى بها ')
 st.write(get_recommendations(name))
 
 
