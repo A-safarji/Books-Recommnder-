@@ -64,7 +64,7 @@ def get_recommendations(book):
     sortedbooks = sorted(similar_books, key = lambda x:x[1], reverse=True)[1:]
     i = 0
     for book in sortedbooks:
-        print(get_title_from_index(book[0]) + " by " + df1.author[df1["index"] == book[0]])
+       st.write(get_title_from_index(book[0]) + " by " + df1.author[df1["index"] == book[0]])
         
 
         i = i+1
