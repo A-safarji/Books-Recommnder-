@@ -13,11 +13,11 @@ pio.renderers.default = 'chrome'
 
 st.title('Recommended for you!')
 
-cosine_sim = pd.read_pickle('cosine_sim.pickle')
-indices = pd.read_pickle('indices.pickle')
-df = pd.read_pickle('df.pickle')
+# cosine_sim = pd.read_pickle('cosine_sim.pickle')
+# indices = pd.read_pickle('indices.pickle')
+df = pd.read_pickle('df.pkl')
 reviews = pd.read_pickle('clean_review.pickle')
-raw = pd.read_pickle("clean_data.pickle")
+# raw = pd.read_pickle("clean_data.pickle")
 
 
 name = st.sidebar.text_input(''' Enter your user name''')
