@@ -96,7 +96,7 @@ except:
 st.write('---')
 
 
-fig = px.bar(df1, x= get_title_from_index(book[0]), y=df1.author[df1["index"] == book[0]], color='author',color_discrete_sequence=px.colors.diverging.Geyser, height=600, width=900)
+fig = px.bar(df1, x=['author'] , y=['BookTitle'], color='author',color_discrete_sequence=px.colors.diverging.Geyser, height=600, width=900)
     
 fig.update_xaxes(showgrid=False)
 fig.update_yaxes(showgrid=False)
