@@ -34,8 +34,8 @@ df1 = pd.read_pickle('df.pkl')
 df1
 name = st.sidebar.text_input(''' Enter your arabic book name''')
 st.sidebar.table(df1["BookTitle"])
-#user = df[(df["BookTitle"] == name) #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
-
+book = df1[(df1["BookTitle"] == name) #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
+book
 
 
 
@@ -68,7 +68,7 @@ def get_recommendations(book):
             break
         
 
-st.write(get_recommendations(name))
+st.write(get_recommendations(book))
 
 
 
