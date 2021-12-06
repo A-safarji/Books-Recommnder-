@@ -14,7 +14,7 @@ pio.renderers.default = 'chrome'
 
 
 #st.title('Recommended for you!')
-st.markdown(' <p align="center" class="big-font">  <b>Authorship Attribution <u>Check</b>   </p>', unsafe_allow_html=True)	
+st.markdown(' <p align="center" class="big-font">  <b>Authorship Attribution <u>T5 🇸🇦</b>   </p>', unsafe_allow_html=True)	
 
 
 st.markdown("""
@@ -34,7 +34,7 @@ cosin = pd.read_pickle('cosine.pkl')
 
 df1
 name = st.sidebar.text_input(''' Enter your arabic book name''')
-st.sidebar.write(''' Our Books Collections''')
+st.sidebar.write(''' Our Books Collections Below:''')
 st.sidebar.table(df1["BookTitle"])
 
 st.write('---')
