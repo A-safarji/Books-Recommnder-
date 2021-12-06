@@ -50,6 +50,9 @@ if st.checkbox("Show orignal dataframe"):
 st.sidebar.header('نظام التوصية')
 name = st.sidebar.text_input(''' ادخل اسم الكتاب''')
 st.sidebar.write(''' Our Books Collections Below:''')
+st.sidebar.write(''' 
+مجموعات كتبنا أدناه:''')
+
 st.sidebar.table(df1["BookTitle"])
 
 st.write('---')
