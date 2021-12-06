@@ -20,7 +20,7 @@ st.markdown(' <p align="center" class="big-font">  <b>Authorship Attribution <u>
 st.markdown("""
 <style>
 .big-font {
-    font-size:45px !important;
+    font-size:55px !important;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -37,14 +37,15 @@ name = st.sidebar.text_input(''' Enter your arabic book name''')
 st.sidebar.table(df1["BookTitle"])
 
 st.write('---')
-st.title('Your Samole Input')
+
+st.title('Your Selected Book')
 books = df1[(df1["BookTitle"] == name)]
            #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 st.write(books)
            
 
 
-st.write(cosin.to_numpy()) 
+#st.write(cosin.to_numpy()) 
 cosine= cosin.to_numpy()
 
 def get_title_from_index(Index):
