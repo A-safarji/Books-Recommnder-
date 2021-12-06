@@ -16,15 +16,56 @@ st.title('Recommended for you!')
 # cosine_sim = pd.read_pickle('cosine_sim.pickle')
 # indices = pd.read_pickle('indices.pickle')
 df = pd.read_pickle('df.pkl')
-reviews = pd.read_pickle('clean_review.pickle')
+#reviews = pd.read_pickle('clean_review.pickle')
 # raw = pd.read_pickle("clean_data.pickle")
 
 df
 name = st.sidebar.text_input(''' Enter your user name''')
 
-user = reviews[(reviews["User_Name"] == name) & (reviews["Polarity"] == "Positive")].reset_index(drop=True)
+#user = df[(df["BookTitle"] == name) #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 
 st.sidebar.table(user["Recipe"])
+
+
+
+tf = TfidfVectorizer(analyzer = "word", ngram_range=(1,2), min_df=0, max_df=0.95)
+
+tfidf_matrix = tf.fit_transform(df['combined_text'])
+
+cosine =  cosine_similarity(tfidf_matrix, tfidf_matrix)
+
+
+def get_title_from_index(Index):
+    return df1[df1.index == Index]["BookTitle"].values[0]
+def get_index_from_title(BookTitle):
+    return df1[df1.BookTitle == BookTitle]["index"].values[0]
+
+def get_recommendations(book):
+    book_index = get_index_from_title(book)
+    similar_books = list(enumerate(cosine[book_index]))
+    sortedbooks = sorted(similar_books, key = lambda x:x[1], reverse=True)[1:]
+    i = 0
+    for book in sortedbooks:
+        print(get_title_from_index(book[0]) + " by " + df1.author[df1["index"] == book[0]])
+        
+
+        i = i+1
+        if i>10:
+            break
+        
+
+print(get_recommendations(name))
+
+
+
+
+
+
+
+
+
+
+
 
 
 # def get_recommendations(name, cosine_sim, raw):
