@@ -24,7 +24,7 @@ name = st.sidebar.text_input(''' Enter your user name''')
 
 #user = df[(df["BookTitle"] == name) #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 
-st.sidebar.table(user["Recipe"])
+st.sidebar.table(df["BookTitle"])
 
 
 
