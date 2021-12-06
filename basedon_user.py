@@ -92,6 +92,14 @@ st.write(get_recommendations(name))
 
 
 
+st.write('## Contact')
+
+
+st.write("""
+[Authorship Attribution](https://github.com/A-safarji) - feel free to contact!
+""")
+
+
 
 
 
