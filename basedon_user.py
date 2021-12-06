@@ -32,8 +32,16 @@ cosin = pd.read_pickle('cosine.pkl')
 #reviews = pd.read_pickle('clean_review.pickle')
 # raw = pd.read_pickle("clean_data.pickle")
 
-df1
-name = st.sidebar.text_input(''' Enter your arabic book name''')
+
+if st.checkbox("Show orignal dataframe"):
+	dataframe=df1
+	#dataframe.drop('Unnamed: 0', axis=1, inplace=True)
+	dataframe
+
+
+
+st.sidebar.header('ابحث عن كتابك المشابة')
+name = st.sidebar.text_input(''' ادخل اسم الكتاب''')
 st.sidebar.write(''' Our Books Collections Below:''')
 st.sidebar.table(df1["BookTitle"])
 
