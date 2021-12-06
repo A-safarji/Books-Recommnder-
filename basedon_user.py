@@ -34,6 +34,7 @@ cosin = pd.read_pickle('cosine.pkl')
 
 df1
 name = st.sidebar.text_input(''' Enter your arabic book name''')
+st.sidebar.write(''' Books''')
 st.sidebar.table(df1["BookTitle"])
 
 st.write('---')
