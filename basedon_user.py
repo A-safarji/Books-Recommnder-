@@ -96,7 +96,7 @@ except:
 st.write('---')
 
 
-fig = px.bar(df1, x=author , y=BookTitle, color='author',color_discrete_sequence=px.colors.diverging.Geyser, height=600, width=900)
+fig = px.bar(df1, x='author' , y='BookTitle', color='author',color_discrete_sequence=px.colors.diverging.Geyser, height=600, width=900)
     
 fig.update_xaxes(showgrid=False)
 fig.update_yaxes(showgrid=False)
