@@ -85,8 +85,11 @@ def get_recommendations(book):
             
 
 st.subheader('💡 Your Recommended Books | كتبك الموصى بها ')
+try:
 st.write(get_recommendations(name))
-
+except:
+        st.error("Please make sure that you only enter a name")
+        st.stop()
 
 
 st.write('---')
