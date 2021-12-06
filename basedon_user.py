@@ -49,7 +49,7 @@ tfidf_matrix = tf.fit_transform(df1['combined_text'])
 
 cosine =  cosine_similarity(tfidf_matrix, tfidf_matrix)
 
-st.write(cosine) 
+#st.write(cosine) 
 
 
 def get_title_from_index(Index):
