@@ -91,10 +91,9 @@ except:
         st.error("🔴 Please make sure that you only enter a name of your book | يرجى التأكد من إدخال اسم كتابك فقط")
         st.stop()
 
-
-
 st.write('---')
 
+st.header('Books Check')
 
 fig = px.bar(df1, x='author' , y='text_length', color='author',color_discrete_sequence=px.colors.diverging.Geyser, height=600, width=900)
     
