@@ -20,7 +20,7 @@ st.markdown(' <p align="center" class="big-font">  <b>Authorship Attribution <u>
 st.markdown("""
 <style>
 .big-font {
-    font-size:55px !important;
+    font-size:50px !important;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -43,7 +43,7 @@ books = df1[(df1["BookTitle"] == name)]
            #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 st.write(books)
            
-
+st.write('---')
 
 #st.write(cosin.to_numpy()) 
 cosine= cosin.to_numpy()
@@ -64,7 +64,9 @@ def get_recommendations(book):
         i = i+1
         if i>10:
             break
-        
+            
+
+st.title('System Recommendations')
 st.write(get_recommendations(name))
 
 
