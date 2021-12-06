@@ -115,7 +115,7 @@ yaxis_title="BookTitle")
 fig.update_xaxes(showline=True, linewidth=1, linecolor='black')
 fig.update_yaxes(showline=True, linewidth=1, linecolor='black')
                                
-#st.table(recommended)
+st.table(get_recommendations(name))
 
 st.plotly_chart(fig)
 
