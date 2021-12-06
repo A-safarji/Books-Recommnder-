@@ -49,7 +49,7 @@ st.write(books)
 # tfidf_matrix = tf.fit_transform(df1['combined_text'])
 
 # cosine =  cosine_similarity(tfidf_matrix, tfidf_matrix)
-st.write(get_recommendations(books))
+
 st.write(cosin.to_numpy()) 
 cosine= cosin.to_numpy()
 
@@ -70,8 +70,7 @@ def get_recommendations(book):
         if i>10:
             break
         
-
-
+st.write(get_recommendations(books))
 
 
 
