@@ -36,19 +36,13 @@ df1
 name = st.sidebar.text_input(''' Enter your arabic book name''')
 st.sidebar.table(df1["BookTitle"])
 
+st.write('---')
+st.title('Your Samole Input')
 books = df1[(df1["BookTitle"] == name)]
            #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 st.write(books)
            
 
-
-
-
-# tf = TfidfVectorizer(analyzer = "word", ngram_range=(1,2), min_df=0, max_df=0.95)
-
-# tfidf_matrix = tf.fit_transform(df1['combined_text'])
-
-# cosine =  cosine_similarity(tfidf_matrix, tfidf_matrix)
 
 st.write(cosin.to_numpy()) 
 cosine= cosin.to_numpy()
