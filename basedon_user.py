@@ -36,6 +36,8 @@ tfidf_matrix = tf.fit_transform(df1['combined_text'])
 
 cosine =  cosine_similarity(tfidf_matrix, tfidf_matrix)
 
+st.write(cosine) 
+
 
 def get_title_from_index(Index):
     return df1[df1.index == Index]["BookTitle"].values[0]
