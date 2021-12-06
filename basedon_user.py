@@ -10,11 +10,11 @@ import pickle
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 pio.renderers.default = 'chrome'
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
 #st.title('Recommended for you!')
-st.markdown(' <p align="center" class="big-font">  <b>Authorship Attribution <u>T5 🇸🇦</b>   </p>', unsafe_allow_html=True)	
+st.markdown(' <p align="center" class="big-font">  <b>Authorship Attribution <u> :star2: T5 🇸🇦</b>   </p>', unsafe_allow_html=True)	
 
 
 st.markdown("""
@@ -59,7 +59,7 @@ st.sidebar.table(df1["BookTitle"])
 
 st.write('---')
 
-st.subheader(':star2: Your Selected Book Title Details | تفاصيل عنوان الكتاب المختار ')
+st.subheader('Your Selected Book Title Details | تفاصيل عنوان الكتاب المختار ')
 books = df1[(df1["BookTitle"] == name)]
            #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 st.write(books)
@@ -87,7 +87,7 @@ def get_recommendations(book):
             break
             
 
-st.subheader('Your Recommended Books')
+st.subheader('Your Recommended Books | كتبك الموصى بها ')
 st.write(get_recommendations(name))
 
 
