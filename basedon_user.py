@@ -34,12 +34,12 @@ cosin = pd.read_pickle('cosine.pkl')
 
 df1
 name = st.sidebar.text_input(''' Enter your arabic book name''')
-st.sidebar.write(''' Books''')
+st.sidebar.write(''' Our Books Collections''')
 st.sidebar.table(df1["BookTitle"])
 
 st.write('---')
 
-st.title('Your Selected Book')
+st.st.subheader('Your Selected Book')
 books = df1[(df1["BookTitle"] == name)]
            #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 st.write(books)
@@ -67,7 +67,7 @@ def get_recommendations(book):
             break
             
 
-st.title('System Recommendations')
+st.st.subheader('System Recommendations')
 st.write(get_recommendations(name))
 
 
