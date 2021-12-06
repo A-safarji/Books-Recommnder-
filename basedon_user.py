@@ -17,13 +17,13 @@ st.title('Recommended for you!')
 
 # cosine_sim = pd.read_pickle('cosine_sim.pickle')
 # indices = pd.read_pickle('indices.pickle')
-df = pd.read_pickle('df.pkl')
+df1 = pd.read_pickle('df.pkl')
 #reviews = pd.read_pickle('clean_review.pickle')
 # raw = pd.read_pickle("clean_data.pickle")
 
 df
 name = st.sidebar.text_input(''' Enter your arabic book name''')
-st.sidebar.table(df["BookTitle"])
+st.sidebar.table(df1["BookTitle"])
 #user = df[(df["BookTitle"] == name) #& (reviews["Polarity"] == "Positive")].reset_index(drop=True)
 
 
@@ -32,7 +32,7 @@ st.sidebar.table(df["BookTitle"])
 
 tf = TfidfVectorizer(analyzer = "word", ngram_range=(1,2), min_df=0, max_df=0.95)
 
-tfidf_matrix = tf.fit_transform(df['combined_text'])
+tfidf_matrix = tf.fit_transform(df1['combined_text'])
 
 cosine =  cosine_similarity(tfidf_matrix, tfidf_matrix)
 
