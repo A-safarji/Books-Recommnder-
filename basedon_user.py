@@ -77,7 +77,7 @@ def get_recommendations(book):
     sortedbooks = sorted(similar_books, key = lambda x:x[1], reverse=True)[1:]
     i = 0
     for book in sortedbooks:
-        st.write( " Title: "+ get_title_from_index(book[0]) + "  |  "  + " author: " + df1.author[df1["index"] == book[0]])
+        st.columns( " Title: "+ get_title_from_index(book[0]) + "  |  "  + " author: " + df1.author[df1["index"] == book[0]])
       
         i = i+1
         if i>10:
@@ -87,7 +87,7 @@ def get_recommendations(book):
 st.subheader('💡 Your Recommended Books | كتبك الموصى بها ')
 st.write(get_recommendations(name))
 
-st.columns(get_recommendations(name))
+
 
 st.write('---')
 st.write('## Contact Our Group')
