@@ -8,8 +8,4 @@ matplotlib
 numpy
 pathlib 
 sklearn
-tensorflow
-onnxruntime 
-tf2onnx
-transformers
 
