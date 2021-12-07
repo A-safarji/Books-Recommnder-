@@ -9,4 +9,6 @@ numpy
 shap
 pathlib 
 sklearn
-
+tensorflow
+logging
+pip install tf2onnx onnxruntime tqdm transformers -q
