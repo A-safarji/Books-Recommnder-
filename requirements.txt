@@ -11,4 +11,8 @@ pathlib
 sklearn
 tensorflow
 logging
+onnx 
+onnxruntime 
+tf2onnx
+transformers
 
