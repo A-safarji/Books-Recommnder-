@@ -6,6 +6,9 @@ pandas
 streamlit 
 matplotlib
 numpy
+shap
 pathlib 
 sklearn
+
+
 
