@@ -110,7 +110,7 @@ fig.update_traces( marker_line_color='rgb(8,48,107)',
     
 fig.update_layout(showlegend=True, title="عدد كلمات الكتب",
 xaxis_title="طول النص",
-yaxis_title="اسم المؤلف")
+yaxis_title="اسم المؤلف وعدد كتبة")
 
     
 fig.update_xaxes(showline=True, linewidth=1, linecolor='black')
