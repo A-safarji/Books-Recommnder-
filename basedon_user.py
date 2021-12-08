@@ -109,9 +109,9 @@ fig.update_traces( marker_line_color='rgb(8,48,107)',
                   marker_line_width=2, opacity=0.6)
     
 fig.update_layout(showlegend=True, title="Books Word Count",
-xaxis_title="Text Length")
+xaxis_title="Text Length"
 #xaxis_title="طول النص")
-yaxis_title="Author Name")
+yaxis_title="Author Name"
 
     
 fig.update_xaxes(showline=True, linewidth=1, linecolor='black')
