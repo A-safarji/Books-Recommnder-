@@ -97,7 +97,7 @@ st.write('---')
 
 st.header('Books in Recommnder System')
 
-fig = px.bar(df1, x='author' , y='text_length', color='author',color_discrete_sequence=px.colors.diverging.Geyser,orientation='h', height=600, width=900)
+fig = px.bar(df1, y='author' , x='text_length', color='author',color_discrete_sequence=px.colors.diverging.Geyser,orientation='h', height=600, width=900)
     
 fig.update_xaxes(showgrid=False)
 fig.update_yaxes(showgrid=True)
