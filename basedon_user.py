@@ -57,8 +57,11 @@ submit = st.button('افحص')
 #     text2 =summWords[0]["summary_text"]
 
 #     st.write(text2)
+#input = st.text_area("Enter Input Data :")
+#output = input.upper() # final_result_from_processing_the_input
+
 Xvalue=" Author:  ابن أمير حاج | Book:  التقرير والتحبير |  Confidence: 0.8255385 "
-cc = st.text_area(label="Output Data:",value=output,Xvalue,  height=90)
+cc = st.text_area(label="Output Data:",value=Xvalue,  height=90)
 		
 
 df1 = pd.read_pickle('df.pkl')
