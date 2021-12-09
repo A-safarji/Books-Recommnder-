@@ -59,9 +59,8 @@ submit = st.button('افحص')
 #     st.write(text2)
 	
 	
-cc = st.text_area(label="Output Data:", value=" كتاب", height=350)
+cc = st.text_area(label="Output Data:", value=" Author:  ابن أمير حاج | Book:  التقرير والتحبير| Confidence: 0.8255385 ", height=350)
 		
-cc
 
 df1 = pd.read_pickle('df.pkl')
 cosin = pd.read_pickle('cosine.pkl')
