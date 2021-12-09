@@ -48,7 +48,7 @@ submit = st.button('افحص')
 
 if submit:
 
-    st.subheader("Words:")
+    st.subheader("Results:")
 
     with st.spinner(text="This may take a moment..."):
 
