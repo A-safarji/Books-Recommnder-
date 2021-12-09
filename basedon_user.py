@@ -66,7 +66,7 @@ df1 = pd.read_pickle('df.pkl')
 cosin = pd.read_pickle('cosine.pkl')
 
 
-
+st.write('---')
 if st.checkbox("Show orignal dataframe | عرض جميع الكتب الموجودة بنظام التوصية"):
 	dataframe=df1
 	#dataframe.drop('Unnamed: 0', axis=1, inplace=True)
