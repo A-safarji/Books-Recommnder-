@@ -55,8 +55,8 @@ if submit:
         summWords = sum2(text, max_length=max_lengthy, min_length=15, num_beams=num_beamer, do_sample=True, early_stopping=True, repetition_penalty=1.5, length_penalty=1.5)
 
     text2 =summWords[0]["summary_text"]
+
     st.write(text2)
-	
 	
 	
 st.text_area(label="Output Data:", value=output, height=350)
