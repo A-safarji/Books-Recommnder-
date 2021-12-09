@@ -61,7 +61,7 @@ if submit:
 	
 
 
-cc = st.text_area(label="Output Data:", value=output, height=350)
+#cc = st.text_area(label="Output Data:", value=output, height=350)
 		
 
 
