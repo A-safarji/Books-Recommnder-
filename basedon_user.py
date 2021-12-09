@@ -33,6 +33,9 @@ st.markdown("""
 Arabic authorship attribution is the task of finding the author of a document.
 To achieve this purpose, one compares a query text with a model of the candidate author and determines the likelihood of the model for the query.
 	""")
+st.write('---')
+
+st.subheader('Check author of a document | ابحث عن المؤلف الحقيقي ')
 
 #raw_text = st.text_area("Authorship Attribution Check","Enter Text Here")
 max_lengthy = st.slider('Maximum words length (words)', min_value=30, max_value=512, value=60, step=10)
