@@ -59,7 +59,7 @@ submit = st.button('افحص')
 #     st.write(text2)
 	
 	
-cc = st.text_area(label="Output Data:", value=" Author:  ابن أمير حاج | Book:  التقرير والتحبير| Confidence: 0.8255385 ", height=350)
+cc = st.text_area(label="Output Data:", value=" Author:  ابن أمير حاج | Book:  التقرير والتحبير| Confidence: 0.8255385 ", height=150)
 		
 
 df1 = pd.read_pickle('df.pkl')
