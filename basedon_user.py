@@ -46,24 +46,22 @@ text = st.text_area('ادخل النص (maximum 512 words):', height=300)
 
 submit = st.button('افحص')  
 
-if submit:
+# if submit:
 
-    st.subheader("Results:")
+#     st.subheader("Results:")
 
-    with st.spinner(text="This may take a moment..."):
+#     with st.spinner(text="This may take a moment..."):
 
-        summWords = sum2(text, max_length=max_lengthy, min_length=15, num_beams=num_beamer, do_sample=True, early_stopping=True, repetition_penalty=1.5, length_penalty=1.5)
+#         summWords = sum2(text, max_length=max_lengthy, min_length=15, num_beams=num_beamer, do_sample=True, early_stopping=True, repetition_penalty=1.5, length_penalty=1.5)
 
-    text2 =summWords[0]["summary_text"]
+#     text2 =summWords[0]["summary_text"]
 
-    st.write(text2)
+#     st.write(text2)
 	
 	
-
-
-#cc = st.text_area(label="Output Data:", value=output, height=350)
+cc = st.text_area(label="Output Data:", value=" كتاب", height=350)
 		
-
+cc
 
 df1 = pd.read_pickle('df.pkl')
 cosin = pd.read_pickle('cosine.pkl')
