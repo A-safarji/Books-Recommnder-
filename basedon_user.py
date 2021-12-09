@@ -37,7 +37,7 @@ To achieve this purpose, one compares a query text with a model of the candidate
 raw_text = st.text_area("Authorship Attribution Check","Enter Text Here")
 max_lengthy = st.slider('Maximum summary length (words)', min_value=30, max_value=150, value=60, step=10)
 
-num_beamer = st.slider('Speed vs quality of summary (1 is fastest)', min_value=1, max_value=8, value=4, step=1)
+#num_beamer = st.slider('Speed vs quality of summary (1 is fastest)', min_value=1, max_value=8, value=4, step=1)
 
 text = st.text_area('Enter Text Below (maximum 800 words):', height=300) 
 
