@@ -35,6 +35,29 @@ To achieve this purpose, one compares a query text with a model of the candidate
 	""")
 
 raw_text = st.text_area("Authorship Attribution Check","Enter Text Here")
+max_lengthy = st.slider('Maximum summary length (words)', min_value=30, max_value=150, value=60, step=10)
+
+num_beamer = st.slider('Speed vs quality of summary (1 is fastest)', min_value=1, max_value=8, value=4, step=1)
+
+text = st.text_area('Enter Text Below (maximum 800 words):', height=300) 
+
+submit = st.button('Generate')  
+
+if submit:
+
+    st.subheader("Summary:")
+
+    with st.spinner(text="This may take a moment..."):
+
+        summWords = sum2(text, max_length=max_lengthy, min_length=15, num_beams=num_beamer, do_sample=True, early_stopping=True, repetition_penalty=1.5, length_penalty=1.5)
+
+    text2 =summWords[0]["summary_text"]
+
+    st.write(text2)
+	
+	
+	
+
 
 df1 = pd.read_pickle('df.pkl')
 cosin = pd.read_pickle('cosine.pkl')
