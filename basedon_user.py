@@ -96,6 +96,7 @@ st.write('---')
 #st.write(cosin.to_numpy()) 
 cosine= cosin.to_numpy()
 
+@st.cache(allow_output_mutation=True)
 def get_title_from_index(Index):
     return df1[df1.index == Index]["BookTitle"].values[0]
 def get_index_from_title(BookTitle):
