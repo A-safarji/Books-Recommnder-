@@ -12,6 +12,7 @@ Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/
 <div style="width:100%;height:0px;position:relative;padding-bottom:61.684%;"><iframe src="https://streamable.com/e/7kjspy" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
 
 
+![live-demo](https://user-images.githubusercontent.com/20365333/145676438-d1fd4105-fc14-4f57-9a43-eabf33f69876.gif)
 
 
 
