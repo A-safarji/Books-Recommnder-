@@ -8,3 +8,8 @@ Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/
 [Watch the video](https://drive.google.com/drive/u/0/folders/1QfvjLwup6PYQh2LEWoqIveQiRlIDdkLW)
 
 <video src='https://drive.google.com/file/d/1RG8PFala8O1dThhVKejROkskHAJE-PRX/view?usp=sharing' width=180/>
+
+
+<img src="https://user-images.githubusercontent.com/20365333/145676154-a6dc21ff-6d10-4f24-9786-c2280ab026b6.gif" width="40" height="40" />
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/20365333/145676154-a6dc21ff-6d10-4f24-9786-c2280ab026b6.gif)
