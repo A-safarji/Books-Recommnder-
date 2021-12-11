@@ -11,5 +11,5 @@ Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/
 
 
 
-![Quote](https://user-images.githubusercontent.com/20365333/145676239-8e9d0b05-a7f2-4579-81c7-e951beb7986e.gif)
-![myfile](https://github.com/A-safarji/Books-Recommnder-/blob/main/ezgif.com-gif-maker.gif)
+
+![myfile](/ezgif.com-gif-maker.gif)
