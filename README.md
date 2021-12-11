@@ -13,3 +13,4 @@ Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/
 <img src="https://user-images.githubusercontent.com/20365333/145676154-a6dc21ff-6d10-4f24-9786-c2280ab026b6.gif" width="40" height="40" />
 
 ![](https://user-images.githubusercontent.com/20365333/145676154-a6dc21ff-6d10-4f24-9786-c2280ab026b6.gif)
+<img src="https://user-images.githubusercontent.com/20365333/145676239-8e9d0b05-a7f2-4579-81c7-e951beb7986e.gif" width="128"/>
