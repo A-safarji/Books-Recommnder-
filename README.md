@@ -13,3 +13,4 @@ Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/
 
 
 ![myfile](ezgif.com-gif-maker.gif)
+<img src="ezgif.com-gif-maker.gif" width="128"/>
