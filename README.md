@@ -7,4 +7,4 @@ Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/
 
 [Watch the video](https://drive.google.com/drive/u/0/folders/1QfvjLwup6PYQh2LEWoqIveQiRlIDdkLW)
 
-[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://drive.google.com/drive/u/0/folders/1QfvjLwup6PYQh2LEWoqIveQiRlIDdkLW)
+<video src='https://drive.google.com/drive/u/0/folders/1QfvjLwup6PYQh2LEWoqIveQiRlIDdkLW' width=180/>
