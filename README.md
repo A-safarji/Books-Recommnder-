@@ -9,12 +9,12 @@ Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/
 
 
 
-<video src='https://streamable.com/7kjspy' width=180/>
+
 
 [Watch the video](https://streamable.com/7kjspy)
 
 
-
+<video src='https://streamable.com/7kjspy' width=180/>
 
 
 
