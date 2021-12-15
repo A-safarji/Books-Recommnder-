@@ -2,6 +2,8 @@
 
 The objective of this project is to investigate application of Deep Learning algorithms for arabic authorship attribution. Authorship attribution refers to the process of identifying the writer of a piece of text as input.
 
+On thr top of identifying the writer, we create a recommnder system to tell what books are similar from the transformer output or user input.
+
 Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/books-recommnder-/main/basedon_user.py)
 
 
