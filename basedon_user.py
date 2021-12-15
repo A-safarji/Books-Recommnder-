@@ -45,7 +45,7 @@ max_lengthy = st.slider('Maximum words length (words)', min_value=30, max_value=
 text = st.text_area('ادخل النص (maximum 512 words):', height=300) 
 
 submit = st.button('افحص')
-st.write('Note: The model is heavy more than 3GB and it might not show results on time as we are hosing on free space and this is a demo production!')
+st.write('Note: The model is heavy more than 3GB of training, and it might not show results on time as we are hosing on free space!')
 
 # if submit:
 
