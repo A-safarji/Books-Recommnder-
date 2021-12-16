@@ -23,5 +23,5 @@ Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/
 
 
 # More details: 
-[Authorship Attribution Project in Deep Learning](https://github.com/FancyWhale69/T5_AuthorAttribution)
+[Authorship Attribution Project in Deep Learning (SDAIA Academy-T5)](https://github.com/FancyWhale69/T5_AuthorAttribution)
 
