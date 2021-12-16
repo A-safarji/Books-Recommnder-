@@ -25,3 +25,9 @@ Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/
 # More details: 
 [Authorship Attribution Project in Deep Learning (SDAIA Academy-T5)](https://github.com/FancyWhale69/T5_AuthorAttribution)
 
+# Contributors
+------------
+# Team Memebers
+* [Hazim Bukhari](https://github.com/FancyWhale69)  
+* [Ahmed Al-Jimiai](https://github.com/AAljmiai)  
+* [Abdultawwab Safarji](https://github.com/A-safarji)
