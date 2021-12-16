@@ -22,4 +22,6 @@ Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/
 <video src='https://streamable.com/7kjspy' width=180/>
 
 
+# More details: 
+[Authorship Attribution Project in Deep Learning](https://github.com/FancyWhale69/T5_AuthorAttribution)
 
