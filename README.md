@@ -29,5 +29,5 @@ Online Now :[With Arabic Books Recommnder](https://share.streamlit.io/a-safarji/
 ------------
 # Team Memebers
 * [Hazim Bukhari](https://github.com/FancyWhale69)  
-* [Ahmed Al-Jimiai](https://github.com/AAljmiai)  
+* [Ahmed Aljmiai](https://github.com/AAljmiai)  
 * [Abdultawwab Safarji](https://github.com/A-safarji)
