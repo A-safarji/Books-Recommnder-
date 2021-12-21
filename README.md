@@ -1,4 +1,4 @@
-# Authorship Attribution For Arabic Books Using Deep Learning
+# Authorship Attribution for Arabic Books Using Deep Learning
 
 * Cabstone Project (T5) 
 
