@@ -7,7 +7,7 @@ The objective of this project is to investigate the application of Deep Learning
 On the top of identifying the writer, we create a recommnder system to tell what books are similar from the transformer output or user input.
 
 
-Online Now :[With Arabic Books Recommnder](https://authorshipksa.herokuapp.com)
+Online Now :[Identifying the writer with Arabic books recommnder](https://authorshipksa.herokuapp.com)
 
 
 ![live-demo](https://user-images.githubusercontent.com/20365333/145676438-d1fd4105-fc14-4f57-9a43-eabf33f69876.gif)
